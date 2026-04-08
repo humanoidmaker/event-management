@@ -24,7 +24,7 @@ export default function App() {
         <Route path="/verify-email" element={<VerifyEmail />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/reset-password" element={<ResetPassword />} />
-        <Route path="*" element={<Login /> /></Routes>;
+        <Route path="*" element={<Login />} /></Routes>;
   return (<Routes><Route path="/" element={<Layout />}><Route index element={<Dashboard />} />
         <Route path="events" element={<Events />} />
         <Route path="registrations" element={<Registrations />} />
